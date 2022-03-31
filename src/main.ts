@@ -70,12 +70,17 @@ botao.addEventListener('click', () => {
 
 // --Multiplos types
 
-let idade:string | number = 90;
+// let idade:string | number = 90;
 
-const funcao = (idade:number) => {
-    
-}
+// const mostrarIdade = (idade:number | string) => {
+//     if(typeof idade === 'string') {
+//         console.log(idade.toUpperCase())
+//     } else {
+//         console.log(idade)
+//     }
+// }
 
+// mostrarIdade(90);
 
 
 
